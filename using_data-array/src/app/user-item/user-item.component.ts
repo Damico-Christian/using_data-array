@@ -6,12 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-item.component.css']
 })
 export class UserItemComponent implements OnInit {
-  name: string; 
+  name: string;
 
   constructor() {
-    this.name = 'Felipe'; 
+    this.name = 'Felipe';  
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }
